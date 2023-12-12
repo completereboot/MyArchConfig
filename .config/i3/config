@@ -233,5 +233,6 @@ bar {
 # autostart
 # exec rythmbar
 
+exec_always eval $(ssh-agent) 
 exec_always picom -b
 exec_always nitrogen --restore
