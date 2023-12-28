@@ -113,20 +113,17 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-# Take a screenshot
-bindsym Print exec flameshot gui
-
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Terminals"
 set $ws2 "2:Web "
 set $ws3 "3:Coding "
-set $ws4 "4:3D "
+set $ws4 "4:Art "
 set $ws5 "5:Video "
 set $ws6 "6: "
 set $ws7 "7: "
 set $ws8 "8: "
-set $ws9 "9: "
+set $ws9 "9:Config "
 set $ws10 "10: Music"
 
 # switch to workspace
@@ -163,7 +160,14 @@ assign [class="firefox"] $ws2
 assign [class="Godot"] $ws3
 assign [class="Blender"] $ws4
 assign [class="vlc"] $ws5
+assign [class="PenTablet"] $ws9
+assign [class="krita"] $ws4
+assign [class="Nvidia-settings"] $ws9
+assign [class="Lxappearance"] $ws9
 
+#assign workspaces to monitor
+workspace $ws4 output HDMI-1
+workspace $ws9 output DP-2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

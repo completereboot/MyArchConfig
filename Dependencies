@@ -1,0 +1,25 @@
+I3
+I3blocks
+nvim
+picom
+rofi
+pipewire-pulse
+Thunar
+terminator
+xclip
+neofetch
+yay
+nitrogen
+Firefox
+networkmanager
+lxapperance
+paavucontrol
+yad - for calendar blocklet
+xdotool - for calendar blocklet
+blueman - for bluetooth
+autorandr
+xp-pen-tablet
+
+Icon Theme: Papirus(required)
+GTK Theme: Lavanda Dark Compact Tokyonight (Thanks to Mebesus)
+Font: Ubuntu Nerd font is used most of the ui, CaskaydiaCove nerd font and JetbrainsMono nerd font is also used in some place.
